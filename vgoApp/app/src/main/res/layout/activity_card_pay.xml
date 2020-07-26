@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/mFlCardPay"
+        style="@style/top_frameLayout"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/mIvCardPay"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_25"
+        android:src="@mipmap/icon_warning" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_25"
+        android:text="请把充值卡放到感应区"
+        android:textColor="@color/colorBlack333333"
+        android:textSize="@dimen/sp_15" />
+
+    <TextView
+        android:id="@+id/mTvCardPayReturn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:layout_marginLeft="@dimen/dp_17"
+        android:layout_marginRight="@dimen/dp_17"
+        android:layout_marginTop="@dimen/dp_25"
+        android:background="@drawable/brown_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="返回"
+        android:textColor="@color/colorBrown6f381d"
+        android:textSize="@dimen/sp_15" />
+</LinearLayout>

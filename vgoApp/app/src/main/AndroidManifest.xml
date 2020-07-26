@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.automation.www">
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+   
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+	    android:enabled="true"
+		android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".broadcastreceiver.BootBroadcastReceiver">          
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".base.LongRunningService"
+	        android:enabled="true"
+			android:exported="false">	
+            <!-- 在manifest注册的时候加了process属性，然后就无法启动了，测试过，去掉就可以正常启动 -->
+            <!-- android:process=":remote" (写了process就换了进程了)  -->
+			<intent-filter>
+                <action android:name=".activity.HomeActivity.AlarmReceiver"/>
+            </intent-filter>
+        </service>	
+		
+        <activity
+            android:name=".base.BaseActivity$AdvertisementActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>							
+        <!--主页-->
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <!--订单详情-->
+        <activity
+            android:name=".activity.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!--充值-->
+        <activity
+            android:name=".activity.RechargeActivity"
+            android:screenOrientation="portrait" />
+        <!--充值结果-->
+        <activity
+            android:name=".activity.RechargeResultActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡-->
+        <activity
+            android:name=".activity.OpenCardActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡结果-->
+        <activity
+            android:name=".activity.OpenCardResultActivity"
+            android:screenOrientation="portrait" />
+        <!--查询-->
+        <activity
+            android:name=".activity.QueryActivity"
+            android:screenOrientation="portrait" />
+        <!--支付方式-->
+        <activity
+            android:name=".activity.PaymentMethodActivity"
+            android:screenOrientation="portrait" />
+        <!--充值卡支付支式-->
+        <activity
+            android:name=".activity.CardPayActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡支付方式-->
+        <activity
+            android:name=".activity.CardPaymentMethodActivity"
+            android:screenOrientation="portrait" />
+        <!--扫码支付-->
+        <activity
+            android:name=".activity.PaymentScavengingActivity"
+            android:screenOrientation="portrait" />
+        <!--支付完成-->
+        <activity
+            android:name=".activity.PaymentCompletionActivity"
+            android:screenOrientation="portrait" />
+        <!--机器故障-->
+        <activity
+            android:name=".activity.MachineStoppageActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

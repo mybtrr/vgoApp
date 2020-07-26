@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/mFlMachineStoppage"
+        style="@style/top_frameLayout"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/mIvMachineStoppage"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_25"
+        android:src="@mipmap/icon_guzhang" />
+
+    <TextView
+        android:id="@+id/mTvRechargeResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_25"
+        android:drawableLeft="@mipmap/icon_gz"
+        android:drawablePadding="@dimen/dp_2_5"
+        android:gravity="center_vertical"
+        android:text="机器故障,请稍候重试"
+        android:textColor="@color/colorBlack333333"
+        android:textSize="@dimen/sp_15" />
+
+    <TextView
+        android:id="@+id/mTvFaultCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="@color/colorBlack5f5f5f"
+        android:textSize="@dimen/sp_10" />
+
+</LinearLayout>

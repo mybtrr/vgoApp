@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mRlHomeShop"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_70">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@drawable/frame">
+
+            <TextView
+                android:id="@+id/mTvHomeShopName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorBrown482a22"
+                android:textSize="@dimen/sp_8" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/mTvHomeShopUnitPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBrown482a22"
+                    android:textSize="@dimen/sp_8" />
+
+                <TextView
+                    android:id="@+id/mTvHomeShopWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBrown482a22"
+                    android:textSize="@dimen/sp_8" />
+
+                <TextView
+                    android:id="@+id/mTvHomeShopNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorBrown482a22"
+                    android:textSize="@dimen/sp_8" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mImgDeletect"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:padding="@dimen/dp_7"
+            android:src="@mipmap/icon_gb" />
+    </RelativeLayout>
+
+</LinearLayout>

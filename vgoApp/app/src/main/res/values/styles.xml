@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/colorGrayDBDBDC</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="top_frameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_100</item>
+    </style>
+
+    <style name="advertisement_bt">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dp_77</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@drawable/advertisement_tv_selector</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/advertisement_bt</item>
+    </style>
+
+    <style name="tv_return">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_35</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/colorBrown6f381d</item>
+        <item name="android:layout_marginTop">@dimen/dp_25</item>
+        <item name="android:layout_marginRight">@dimen/dp_17</item>
+        <item name="android:layout_marginLeft">@dimen/dp_17</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/brown_selector</item>
+    </style>
+
+    <style name="tv_home_buttom">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <!-- 自定义dialog的样式 -->
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyProgressBar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:indeterminateTintMode" tools:targetApi="lollipop">src_atop</item>
+    </style>
+
+</resources>

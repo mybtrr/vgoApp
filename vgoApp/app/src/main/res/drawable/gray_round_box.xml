@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景色-->
+    <solid android:color="@color/colorGrayDBDBDC" />
+    <!-- 圆角-->
+    <corners android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"/>
+    <!-- 文字与边界的间隔 -->
+    <padding
+        android:left="10dp"
+        android:top="15dp"
+        android:right="10dp"
+        android:bottom="15dp"/>
+</shape>

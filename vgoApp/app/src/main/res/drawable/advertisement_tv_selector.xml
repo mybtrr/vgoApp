@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><!--条目点击变颜色-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/colorWhite" android:state_pressed="true" />
+    <item android:color="@color/colorBlack333333" android:state_pressed="false" />
+
+</selector>
