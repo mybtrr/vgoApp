@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\loading_img.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\loading_img.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_img.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_img.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\mmtitle_bg.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mmtitle_bg.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\publicloading.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\publicloading.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\btn_style_nine_pressed.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\btn_style_nine_pressed.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\webviewtab_bg.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\webviewtab_bg.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_run.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_run.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\btn_style_nine_normal.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\btn_style_nine_normal.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\album_add.png",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\album_add.png"
+    }
+]

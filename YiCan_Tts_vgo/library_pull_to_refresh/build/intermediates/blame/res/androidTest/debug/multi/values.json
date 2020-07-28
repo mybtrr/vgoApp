@@ -1,0 +1,273 @@
+[
+    {
+        "outputFile": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1727,
+                    "endColumn": 63,
+                    "endOffset": 1786
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1727,
+                        "endColumn": 63,
+                        "endOffset": 1786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1791,
+                    "endColumn": 63,
+                    "endOffset": 1850
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1791,
+                        "endColumn": 63,
+                        "endOffset": 1850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1855,
+                    "endColumn": 54,
+                    "endOffset": 1905
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1855,
+                        "endColumn": 54,
+                        "endOffset": 1905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1910,
+                    "endColumn": 56,
+                    "endOffset": 1962
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1910,
+                        "endColumn": 56,
+                        "endOffset": 1962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1967,
+                    "endColumn": 54,
+                    "endOffset": 2017
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1967,
+                        "endColumn": 54,
+                        "endOffset": 2017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2022,
+                    "endColumn": 37,
+                    "endOffset": 2055
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 37,
+                        "endOffset": 2055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2060,
+                    "endColumn": 39,
+                    "endOffset": 2095
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2060,
+                        "endColumn": 39,
+                        "endOffset": 2095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2100,
+                    "endColumn": 36,
+                    "endOffset": 2132
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2100,
+                        "endColumn": 36,
+                        "endOffset": 2132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2137,
+                    "endColumn": 101,
+                    "endOffset": 2234
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2137,
+                        "endColumn": 101,
+                        "endOffset": 2234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2239,
+                    "endColumn": 113,
+                    "endOffset": 2348
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2239,
+                        "endColumn": 113,
+                        "endOffset": 2348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2353,
+                    "endColumn": 107,
+                    "endOffset": 2456
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2353,
+                        "endColumn": 107,
+                        "endOffset": 2456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2461,
+                    "endColumn": 71,
+                    "endOffset": 2528
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2461,
+                        "endColumn": 71,
+                        "endOffset": 2528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2533,
+                    "endColumn": 69,
+                    "endOffset": 2598
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2533,
+                        "endColumn": 69,
+                        "endOffset": 2598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2603,
+                    "endColumn": 77,
+                    "endOffset": 2676
+                },
+                "from": {
+                    "file": "E:\\dcyj\\library_pull_to_refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2603,
+                        "endColumn": 77,
+                        "endOffset": 2676
+                    }
+                }
+            }
+        ]
+    }
+]

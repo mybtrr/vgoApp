@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ico_del.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\ico_del.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_back.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_addpic_focused.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\icon_addpic_focused.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xsearch_loading.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\xsearch_loading.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\choosebar_press_down.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\choosebar_press_down.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_normal.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\dot_normal.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xsearch_msg_pull_arrow_down.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\xsearch_msg_pull_arrow_down.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dot_selected.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\dot_selected.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_btn_normal.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\refresh_btn_normal.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\choosebar_press_up.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-hdpi\\choosebar_press_up.9.png"
+    }
+]

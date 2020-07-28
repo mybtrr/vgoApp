@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yican.www.animation.MovedView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="240dp"
+    android:background="#00000000">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dp_52"
+        android:layout_height="@dimen/dp_52"
+        android:scaleType="centerCrop" />
+</com.yican.www.animation.MovedView>

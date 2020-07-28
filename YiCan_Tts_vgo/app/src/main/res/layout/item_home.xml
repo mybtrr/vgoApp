@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLlItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_80"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_3"
+        android:background="@drawable/green_frame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mImgHomeIcon"
+            android:layout_width="@dimen/dp_96"
+            android:layout_height="@dimen/dp_0"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dp_1"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_2">
+
+            <TextView
+                android:id="@+id/mTItemPaymentMethodContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_28"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="这是品名"
+                android:textColor="@color/colorBrown482a22"
+                android:textSize="@dimen/sp_6" />
+
+            <TextView
+                android:id="@+id/mTItemPaymentMethodPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_28"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="88.88"
+                android:textColor="@color/colorRedda0517"
+                android:textSize="@dimen/sp_6" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/mTItemWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_39"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="888.88"
+            android:textColor="@color/colorBrown6f381d"
+            android:textSize="@dimen/sp_6" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

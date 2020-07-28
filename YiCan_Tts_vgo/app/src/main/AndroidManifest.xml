@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:replace="allowBackup, android:appComponentFactory"
+
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="任意字符"
+
+    <meta-data android:name="com.yican.www" tools:replace="android:value" />
+-->
+
+<manifest
+    package="com.yican.www"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:allowBackup="false"
+    >
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!--获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--允许程序改变wifi状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!--允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!--读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!--外存储写权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--外存储读权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--配置权限，用来记录应用配置信息 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+	    android:enabled="true"
+		android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name="com.yican.www.broadcastreceiver.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="com.yican.www.base.LongRunningService"
+	        android:enabled="true"
+			android:exported="false">	
+            <!-- 在manifest注册的时候加了process属性，然后就无法启动了，测试过，去掉就可以正常启动 -->
+            <!-- android:process=":remote" (写了process就换了进程了)  -->
+            <!-- android:name=".base.BaseActivity$AdvertisementActivity"
+            android:name="com.yican.www.activity.MainActivity">
+
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:replace='android:value'
+            tools:replace="android:icon, android:label,android:theme"
+
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+            -->
+
+			<intent-filter>
+                <action android:name=".activity.HomeActivity.AlarmReceiver"/>
+            </intent-filter>
+        </service>
+
+         <activity
+             android:name=".base.BaseActivity$AdvertisementActivity"
+             android:screenOrientation="portrait"
+             android:launchMode="singleTask">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <!--主页-->
+        <activity
+            android:name="com.yican.www.activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <!--订单详情-->
+        <activity
+            android:name="com.yican.www.activity.OrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!--充值-->
+        <activity
+            android:name="com.yican.www.activity.RechargeActivity"
+            android:screenOrientation="portrait" />
+        <!--充值结果-->
+        <activity
+            android:name="com.yican.www.activity.RechargeResultActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡-->
+        <activity
+            android:name="com.yican.www.activity.OpenCardActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡结果-->
+        <activity
+            android:name="com.yican.www.activity.OpenCardResultActivity"
+            android:screenOrientation="portrait" />
+        <!--查询-->
+        <activity
+            android:name="com.yican.www.activity.QueryActivity"
+            android:screenOrientation="portrait" />
+        <!--支付方式-->
+        <activity
+            android:name="com.yican.www.activity.PaymentMethodActivity"
+            android:screenOrientation="portrait" />
+        <!--充值卡支付支式-->
+        <activity
+            android:name="com.yican.www.activity.CardPayActivity"
+            android:screenOrientation="portrait" />
+        <!--开卡支付方式-->
+        <activity
+            android:name="com.yican.www.activity.CardPaymentMethodActivity"
+            android:screenOrientation="portrait" />
+        <!--扫码支付-->
+        <activity
+            android:name="com.yican.www.activity.PaymentScavengingActivity"
+            android:screenOrientation="portrait" />
+        <!--支付完成-->
+        <activity
+            android:name="com.yican.www.activity.PaymentCompletionActivity"
+            android:screenOrientation="portrait" />
+        <!--机器故障-->
+        <activity
+            android:name="com.yican.www.activity.MachineStoppageActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 语音 -->
+        <activity
+            android:name="com.yican.www.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yican.www.activity.SynthActivity"
+            android:label="离在线语音合成" />
+        <activity
+            android:name="com.yican.www.activity.MiniActivity"
+            android:label="精简版合成" />
+        <activity
+            android:name="com.yican.www.activity.SaveFileActivity"
+            android:label="保存合成后的音频" />
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\anim\\water_loading_progressbar_anim.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\anim\\water_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\anim\\pull_arrow_up.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\anim\\pull_arrow_up.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\anim\\update_loading_progressbar_anim.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\anim\\pull_arrow_down.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\anim\\pull_arrow_down.xml"
+    }
+]

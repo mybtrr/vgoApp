@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_run.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\indicator_run.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_style_nine_normal.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\btn_style_nine_normal.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\webviewtab_bg.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\webviewtab_bg.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\loading_img.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\loading_img.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_img.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\indicator_img.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\album_add.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\album_add.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\mmtitle_bg.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\mmtitle_bg.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_style_nine_pressed.9.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\btn_style_nine_pressed.9.png"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\publicloading.png",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\drawable-xhdpi\\publicloading.png"
+    }
+]

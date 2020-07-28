@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_arrow_up.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_arrow_up.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_arrow_down.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_arrow_down.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\update_loading_progressbar_anim.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\water_loading_progressbar_anim.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\bundles\\debug\\res\\anim\\water_loading_progressbar_anim.xml"
+    }
+]

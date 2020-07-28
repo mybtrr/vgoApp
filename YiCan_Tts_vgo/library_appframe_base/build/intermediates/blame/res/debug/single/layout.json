@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_forder.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\list_item_forder.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\multi_list_items.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\multi_list_items.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_asset_image.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_show_asset_image.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\select_imageview.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\select_imageview.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\show_imageview.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\show_imageview.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\splash_layout.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\splash_layout.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_water.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\pull_to_refresh_header_water.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_single_image.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_show_single_image.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\layout_image_loading.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\layout_image_loading.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_photo.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_select_photo.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\view_pager_adapter.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\view_pager_adapter.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_single_image_with_delete.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_show_single_image_with_delete.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\app_progress_dialog.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\app_progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\choose_imageview.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\choose_imageview.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\list_forder.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\list_forder.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_main.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\refresh_main.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\activity_album.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\pull_refresh_webview.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\pull_refresh_webview.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\swipeback_layout.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\alert_pic_sel_dialog.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\alert_pic_sel_dialog.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\dcyj\\library_appframe_base\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header2.xml",
+        "source": "E:\\dcyj\\library_appframe_base\\src\\main\\res\\layout\\pull_to_refresh_header2.xml"
+    }
+]
